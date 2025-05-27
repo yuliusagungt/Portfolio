@@ -6,6 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Yulius Agung Trisnanto</title>
   <style>
+    header {
+      background-color: #283593;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
@@ -51,7 +71,10 @@
 </head>
 
 <body>
+
   <header>
+    <img src="foto.jpg" alt="Foto Profil Yulius"
+      style="width: 150px; border-radius: 50%; margin-bottom: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     <h1>Yulius Agung Trisnanto</h1>
     <p>Tech Enthusiast | AR Creator | AI Researcher</p>
   </header>
@@ -147,7 +170,10 @@
 
   <footer>
     <p>&copy; 2025 Yulius Agung Trisnanto. All rights reserved.</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Icon Coding"
+      style="width: 30px; margin-top: 10px;">
   </footer>
+
 </body>
 
 </html>
